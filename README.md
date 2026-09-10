@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="Awesome SOC 2" width="100%">
+</p>
+
 # Awesome SOC 2 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of resources, tools, frameworks, and guides for achieving and maintaining SOC 2 compliance.
