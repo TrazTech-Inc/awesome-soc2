@@ -35,6 +35,8 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
   - [Podcasts](#podcasts)
   - [Newsletters](#newsletters)
 - [Community & Forums](#community--forums)
+- [Endpoint Security & MDM](#endpoint-security--mdm)
+- [Business Continuity & Disaster Recovery](#business-continuity--disaster-recovery)
 - [Consultants & Service Providers](#consultants--service-providers)
   - [Audit Firms](#audit-firms)
   - [Advisory & Implementation](#advisory--implementation)
@@ -301,6 +303,29 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Hacker News (YC)](https://news.ycombinator.com/) - Frequent discussions on SOC 2 compliance for startups, searchable with "SOC 2" queries.
 - [ComplianceForge Community](https://www.complianceforge.com/community/) - Community focused on cybersecurity and compliance documentation.
 
+## Endpoint Security & MDM
+
+- [CrowdStrike Falcon](https://www.crowdstrike.com/) - Cloud-native endpoint protection platform with real-time threat detection, EDR, and managed threat hunting.
+- [SentinelOne](https://www.sentinelone.com/) - AI-powered endpoint security with autonomous detection, response, and remediation.
+- [Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint) - Enterprise endpoint security integrated with Microsoft 365.
+- [Jamf](https://www.jamf.com/) - Apple device management and security for macOS, iOS, and iPadOS fleets.
+- [Kandji](https://www.kandji.io/) - Apple MDM with pre-built compliance templates for SOC 2 and CIS benchmarks.
+- [Mosyle](https://mosyle.com/) - Apple device management with integrated security for business and education.
+- [Fleet](https://fleetdm.com/) - Open-source device management and osquery fleet manager for cross-platform endpoint visibility. ([GitHub](https://github.com/fleetdm/fleet))
+- [Hexnode](https://www.hexnode.com/) - Unified endpoint management across Windows, macOS, iOS, Android, and tvOS.
+- [Microsoft Intune](https://www.microsoft.com/en-us/security/business/endpoint-management/microsoft-intune) - Cloud-based endpoint management for Windows, macOS, iOS, and Android.
+
+## Business Continuity & Disaster Recovery
+
+- [AWS Backup](https://aws.amazon.com/backup/) - Centralized backup service for AWS resources with cross-region and cross-account capabilities.
+- [Azure Backup](https://azure.microsoft.com/en-us/products/backup/) - Cloud-native backup for Azure VMs, SQL databases, and file shares.
+- [Google Cloud Backup and DR](https://cloud.google.com/backup-disaster-recovery) - Managed backup and DR service for Google Cloud workloads.
+- [Veeam](https://www.veeam.com/) - Enterprise backup and recovery for cloud, virtual, and physical workloads.
+- [Druva](https://www.druva.com/) - SaaS-based data protection and backup across endpoints, cloud, and SaaS applications.
+- [Zerto](https://www.zerto.com/) - Continuous data protection and disaster recovery for hybrid and multi-cloud environments.
+- [PagerDuty](https://www.pagerduty.com/) - Incident management and on-call scheduling for maintaining availability SLAs.
+- [Rootly](https://rootly.com/) - Incident management automation with Slack-native workflows and post-incident learning.
+
 ## Consultants & Service Providers
 
 ### Audit Firms
@@ -317,6 +342,9 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Prescient Assurance](https://www.prescientassurance.com/) - Boutique firm specializing in SOC 2 audits for startups and growth-stage companies.
 - [Johanson Group](https://www.johansongroup.com/) - Audit firm focused on SOC 2 and SOC 1 engagements for technology companies.
 - [CBIZ CPAs (formerly MHM)](https://www.cbizcpas.com/) - National CPA firm with 70+ years of experience offering SOC reporting services, financial audits, and SEC/PCAOB audits across multiple industries.
+- [Grant Thornton](https://www.grantthornton.com/) - Major mid-tier firm with a growing SOC 2 attestation practice.
+- [RSM US](https://rsmus.com/) - Fifth-largest US audit firm with SOC reporting services across industries.
+- [Crowe LLP](https://www.crowe.com/) - Top-10 US accounting firm with extensive SOC 2 and SOC 1 experience.
 
 ### Advisory & Implementation
 
