@@ -75,7 +75,7 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 - [Vanta SOC 2 Compliance Checklist](https://www.vanta.com/collection/soc-2/soc-2-compliance-checklist) - Step-by-step compliance checklist with automation context.
 - [Drata SOC 2 Readiness Guide](https://drata.com/blog/soc-2-readiness-assessment) - Guide covering gap analysis, remediation, and audit preparation.
 - [StrongDM SOC 2 Compliance Checklist](https://www.strongdm.com/blog/soc-2-compliance-checklist) - Checklist focused on access management requirements.
-- [A-LIGN SOC 2 Readiness Guide](https://a-lign.com/articles/soc-2-readiness-assessment) - From a Big Four-alternative audit firm, covering readiness assessment methodology.
+- [A-LIGN SOC 2 Readiness Guide](https://a-lign.com/articles/soc-2-readiness-assessment) - From one of the largest specialized SOC 2 audit firms in the US, covering readiness assessment methodology.
 - [Tugboat Logic SOC 2 Guide](https://tugboatlogic.com/soc-2/) - Practical readiness walkthrough with a focus on evidence mapping (acquired by OneTrust, may redirect).
 - [Laika SOC 2 Readiness Checklist](https://heylaika.com/soc-2/) - Actionable checklist organized by Trust Services Criteria (rebranded as Thoropass).
 - [Secureframe SOC 2 Timeline Guide](https://secureframe.com/hub/soc-2/how-long-does-it-take-to-get-soc-2) - Realistic timelines for SOC 2 readiness based on company size and complexity.
@@ -95,13 +95,13 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 
 Compliance automation platforms streamline evidence collection, control monitoring, and audit management. Here is a comparison of the major options:
 
-- [Vanta](https://www.vanta.com/) - Market leader with the broadest integration ecosystem (200+ integrations). Excellent for companies already using popular SaaS tools. Strong automated evidence collection and continuous monitoring. Can be expensive for smaller teams; pricing scales with employee count.
-- [Drata](https://drata.com/) - Strong automation with a clean UI and good customer support. Offers 100+ integrations and custom control mapping. Competitive pricing. Particularly strong for companies pursuing multiple frameworks simultaneously (SOC 2 + ISO 27001 + HIPAA).
+- [Vanta](https://www.vanta.com/) - Market leader with the broadest integration ecosystem (375+ integrations). Excellent for companies already using popular SaaS tools. Strong automated evidence collection and continuous monitoring. Can be expensive for smaller teams; pricing scales with employee count.
+- [Drata](https://drata.com/) - Strong automation with a clean UI and good customer support. Offers 150+ integrations and custom control mapping. Competitive pricing. Particularly strong for companies pursuing multiple frameworks simultaneously (SOC 2 + ISO 27001 + HIPAA).
 - [Secureframe](https://secureframe.com/) - Developer-friendly with strong API access and infrastructure-as-code integrations. Good for engineering-led compliance programs. Solid AWS, GCP, and Azure integrations. Offers AI-assisted remediation guidance.
 - [Sprinto](https://sprinto.com/) - Cost-effective option popular with startups and mid-market companies, especially outside the US. Offers risk-first approach with continuous control monitoring and built-in training modules.
 - [Thoropass (formerly Laika)](https://thoropass.com/) - Combines software platform with in-house audit services for a streamlined end-to-end experience. Good for companies wanting a single vendor for both automation and audit. Can reduce coordination overhead.
 - [Scytale](https://scytale.ai/) - Focuses on fast time-to-compliance with a streamlined workflow. Good for companies wanting a simpler, more guided experience. Strong SOC 2 focus with expanding framework support.
-- [Lacework](https://www.lacework.com/) - Cloud-native security platform with compliance modules. Best for organizations wanting combined CSPM and compliance monitoring from a single tool. Deep AWS, GCP, and Azure integration.
+- [Lacework](https://www.lacework.com/) - Cloud-native security platform with compliance modules (acquired by Fortinet, rebranded as FortiCNAPP). Best for organizations wanting combined CSPM and compliance monitoring from a single tool. Deep AWS, GCP, and Azure integration.
 - [Tugboat Logic (now OneTrust)](https://www.onetrust.com/products/compliance-automation/) - Acquired by OneTrust. Good for enterprises already in the OneTrust ecosystem wanting unified GRC and privacy compliance.
 - [AuditBoard](https://www.auditboard.com/) - Enterprise-grade GRC platform for internal audit, risk, and compliance teams. Suited for large organizations with mature compliance programs. Offers SOC 2 and SOX compliance modules.
 - [Anecdotes](https://www.anecdotes.ai/) - AI-driven compliance platform that automates evidence collection across business processes. Good for complex enterprises with multiple compliance requirements.
@@ -113,7 +113,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) - AWS/Azure/GCP security assessment tool that maps findings to SOC 2, CIS, PCI DSS, HIPAA, and more. Generates audit-ready reports.
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Comprehensive vulnerability scanner for containers, filesystems, IaC, and Git repositories. Essential for SOC 2 vulnerability management evidence.
 - [bridgecrewio/checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure-as-code (Terraform, CloudFormation, Kubernetes). Prevents misconfigurations before deployment.
-- [tfsec/tfsec](https://github.com/aquasecurity/tfsec) - Terraform-specific static analysis focused on security misconfigurations (deprecated - use Trivy). Integrates into CI/CD pipelines.
+- [aquasecurity/tfsec](https://github.com/aquasecurity/tfsec) - Terraform-specific static analysis focused on security misconfigurations (deprecated - use Trivy). Integrates into CI/CD pipelines.
 - [open-policy-agent/opa](https://github.com/open-policy-agent/opa) - General-purpose policy engine for enforcing compliance policies as code across your stack.
 - [ossf/scorecard](https://github.com/ossf/scorecard) - Automated security health checks for open-source dependencies, supporting SOC 2 supply chain security requirements.
 - [cloud-custodian/cloud-custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for cloud resource management, policy enforcement, and compliance monitoring across AWS, Azure, and GCP.
@@ -157,7 +157,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Google Cloud Asset Inventory](https://cloud.google.com/asset-inventory) - Full inventory of GCP resources with historical change tracking for audit evidence.
 - [Google Cloud Audit Logs](https://cloud.google.com/logging/docs/audit) - Admin activity, data access, and system event audit logs.
 - [Google Cloud Organization Policy Service](https://cloud.google.com/resource-manager/docs/organization-policy/overview) - Centralized constraint enforcement across your GCP organization.
-- [Forseti Security](https://github.com/forseti-security/forseti-security) - Open-source GCP security tooling for inventory, scanning, and enforcement (community maintained).
+- [Forseti Security](https://github.com/forseti-security/forseti-security) - Open-source GCP security tooling for inventory, scanning, and enforcement (archived, no longer maintained).
 
 ### Azure
 
@@ -209,7 +209,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [OneTrust Vendorpedia](https://www.onetrust.com/products/third-party-risk-management/) - Third-party risk management with automated vendor assessments and risk scoring.
 - [SecurityScorecard](https://securityscorecard.com/) - External security ratings platform that continuously monitors vendor security posture.
 - [BitSight](https://www.bitsight.com/) - Security performance management with vendor risk ratings and benchmarking.
-- [Prevalent](https://www.prevalent.net/) - Unified third-party risk management platform covering security, privacy, and compliance assessments.
+- [Prevalent](https://www.prevalent.net/) - Unified third-party risk management platform covering security, privacy, and compliance assessments (acquired by Mitratech).
 - [Venminder](https://www.venminder.com/) - Vendor risk management platform with pre-built assessment questionnaires and ongoing monitoring.
 - [Risk Recon (Mastercard)](https://www.riskrecon.com/) - Continuous vendor security monitoring with risk-prioritized assessments.
 - [HECVAT (Higher Ed)](https://library.educause.edu/resources/2020/4/higher-education-community-vendor-assessment-toolkit) - Open vendor assessment questionnaire useful as a template for SOC 2 vendor evaluations.
@@ -218,13 +218,13 @@ Compliance automation platforms streamline evidence collection, control monitori
 ## Penetration Testing
 
 - [OWASP Testing Guide v4.2](https://owasp.org/www-project-web-security-testing-guide/) - Comprehensive methodology for web application security testing relevant to SOC 2 vulnerability management.
-- [OWASP Top 10 (2021)](https://owasp.org/www-project-top-ten/) - The most critical web application security risks. A baseline for SOC 2 application security testing.
+- [OWASP Top 10 (2025)](https://owasp.org/www-project-top-ten/) - The most critical web application security risks. A baseline for SOC 2 application security testing.
 - [PTES (Penetration Testing Execution Standard)](https://www.pentest-standard.org/) - Methodology standard for consistent and thorough penetration testing engagements.
 - [Burp Suite](https://portswigger.net/burp) - Industry-standard web application security testing toolkit.
 - [Nmap](https://nmap.org/) - Network discovery and security auditing tool for infrastructure penetration testing.
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - Open-source penetration testing framework for validating infrastructure security controls.
 - [Nuclei](https://github.com/projectdiscovery/nuclei) - Fast and customizable vulnerability scanner with community-maintained templates.
-- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Open-source web application security scanner maintained by OWASP.
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Open-source web application security scanner, now maintained by Checkmarx under the Linux Foundation.
 - [Snyk](https://snyk.io/) - Developer-first security platform for finding and fixing vulnerabilities in code, dependencies, containers, and IaC.
 - [Qualys](https://www.qualys.com/) - Cloud-based vulnerability management, detection, and compliance platform.
 - [Tenable Nessus](https://www.tenable.com/products/nessus) - Widely used vulnerability scanner for infrastructure and web application assessments.
@@ -233,7 +233,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 
 - [PagerDuty Incident Response Guide](https://response.pagerduty.com/) - Open-source incident response documentation covering processes, roles, and communication templates.
 - [Atlassian Incident Management Handbook](https://www.atlassian.com/incident-management/handbook) - Practical guide to building incident management processes with runbook templates.
-- [NIST SP 800-61 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) - Computer Security Incident Handling Guide from NIST. The gold standard for incident response planning.
+- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/publications/detail/sp/800-61/rev-3/final) - Incident Response Recommendations and Considerations for Cybersecurity Risk Management from NIST, updated in 2025 to align with CSF 2.0. The gold standard for incident response planning.
 - [TheHive Project](https://github.com/TheHive-Project/TheHive) - Open-source security incident response platform for SOC teams.
 - [DFIR Report](https://thedfirreport.com/) - Real-world intrusion analysis reports useful for building detection capabilities and incident response playbooks.
 - [Incident Response Consortium](https://www.incidentresponse.org/playbooks/) - Free incident response playbook templates for common attack scenarios.
@@ -245,12 +245,12 @@ Compliance automation platforms streamline evidence collection, control monitori
 
 - [KnowBe4](https://www.knowbe4.com/) - Security awareness training and simulated phishing platform. Widely used for SOC 2 training evidence.
 - [SANS Security Awareness](https://www.sans.org/security-awareness-training/) - Role-based security awareness training from SANS Institute.
-- [Curricula](https://www.curricula.com/) - Engaging, story-driven security awareness training platform.
+- [Curricula](https://www.curricula.com/) - Engaging, story-driven security awareness training platform (acquired by Huntress).
 - [Hoxhunt](https://www.hoxhunt.com/) - AI-based phishing simulation and security awareness training with gamification.
 - [Ninjio](https://ninjio.com/) - Micro-learning security awareness training using Hollywood-style animated episodes.
 - [Proofpoint Security Awareness](https://www.proofpoint.com/us/products/security-awareness-training) - Threat intelligence-driven training from a leading email security vendor.
-- [Elevation of Privilege (EoP) Card Game](https://github.com/adamshostack/eop) - Microsoft's threat modeling card game for developer security training.
-- [OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask) - Open-source training platform for developers covering secure coding and OWASP guidelines.
+- [Elevation of Privilege (EoP) Card Game](https://github.com/adamshostack/eop) - Adam Shostack's threat modeling card game for developer security training.
+- [OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask) - Open-source training platform for developers covering secure coding and OWASP guidelines (archived).
 
 ## Books & Courses
 
@@ -269,7 +269,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Udemy - SOC 2 Compliance Bootcamp](https://www.udemy.com/courses/search/?q=soc+2) - Practical SOC 2 preparation course covering all Trust Services Criteria.
 - [ISACA CISA Certification](https://www.isaca.org/credentialing/cisa) - Certified Information Systems Auditor (CISA) - IT audit certification relevant to SOC 2 auditing, though not SOC 2-specific.
 - [AICPA SOC for Service Organizations Certificate](https://www.aicpa-cima.com/cpe-learning/course/soc-for-service-organizations-certificate-program) - Official AICPA certificate program for understanding SOC reporting.
-- [(ISC)2 CCSP - Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp) - Cloud security certification covering compliance, governance, and architecture.
+- [ISC2 CCSP - Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp) - Cloud security certification covering compliance, governance, and architecture.
 - [CompTIA Security+](https://www.comptia.org/certifications/security) - Foundational cybersecurity certification covering many SOC 2-relevant domains.
 
 ## Podcasts & Newsletters
