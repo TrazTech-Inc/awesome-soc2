@@ -42,21 +42,21 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 - [AICPA Trust Services Criteria (TSC)](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/trustdataintegritytaskforce) - The canonical criteria definitions for Security, Availability, Processing Integrity, Confidentiality, and Privacy.
 - [AICPA SOC Suite of Services](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-suite-of-services) - Full overview of SOC 1, SOC 2, and SOC 3 reports and when each applies.
 - [SSAE 18 (AT-C 205)](https://www.aicpa-cima.com/resources/download/statement-on-standards-for-attestation-engagements-ssae-no-18) - The attestation standard under which SOC 2 examinations are performed.
-- [SOC 2 Type I vs. Type II Explained](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) - Understanding the difference between point-in-time (Type I) and observation-window (Type II) reports.
+- [SOC 2 Type I vs. Type II Explained](https://traztech.ca/blog/is-soc-2-a-certification-or-attestation) - Understanding the difference between point-in-time (Type I) and observation-window (Type II) reports.
 - [AICPA SOC 2 Reporting FAQs](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/socfaq) - Frequently asked questions directly from the AICPA.
 
 ## Frameworks & Standards
 
 - [NIST Cybersecurity Framework (CSF) 2.0](https://www.nist.gov/cyberframework) - Widely adopted risk management framework that maps well to SOC 2 criteria.
 - [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) - Comprehensive catalog of security and privacy controls used by federal agencies, useful for mapping SOC 2 controls.
-- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001) - International standard for information security management systems (ISMS). Many controls overlap with SOC 2.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/82875.html) - International standard for information security management systems (ISMS). Many controls overlap with SOC 2.
 - [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) - Supplementary guidance for implementing ISO 27001 controls, useful as a SOC 2 control reference.
 - [CIS Controls v8](https://www.cisecurity.org/controls/v8) - Prioritized set of 18 cybersecurity actions that map to multiple SOC 2 criteria.
 - [COSO Internal Control Framework](https://www.coso.org/guidance-on-ic) - The foundational internal control model referenced by SOC 2's Common Criteria.
 - [CSA Cloud Controls Matrix (CCM) v4](https://cloudsecurityalliance.org/research/cloud-controls-matrix) - Cloud-specific security controls framework that complements SOC 2 for SaaS providers.
 - [COBIT 2019](https://www.isaca.org/resources/cobit) - IT governance and management framework from ISACA with strong SOC 2 alignment.
 - [HITRUST CSF](https://hitrustalliance.net/hitrust-csf/) - Risk-based framework that integrates SOC 2, HIPAA, ISO 27001, and other standards into a single certifiable program.
-- [SOC 2 to ISO 27001 Control Mapping](https://traztech.ca/blog) - Understanding how SOC 2 Trust Services Criteria map to ISO 27001 Annex A controls.
+- [SOC 2 to ISO 27001 Control Mapping](https://traztech.ca/blog/soc-2-or-iso-27001-for-canadian-startups) - Understanding how SOC 2 Trust Services Criteria map to ISO 27001 Annex A controls.
 
 ## Readiness Guides & Checklists
 
@@ -105,21 +105,20 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) - AWS/Azure/GCP security assessment tool that maps findings to SOC 2, CIS, PCI DSS, HIPAA, and more. Generates audit-ready reports.
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Comprehensive vulnerability scanner for containers, filesystems, IaC, and Git repositories. Essential for SOC 2 vulnerability management evidence.
 - [bridgecrewio/checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure-as-code (Terraform, CloudFormation, Kubernetes). Prevents misconfigurations before deployment.
-- [tfsec/tfsec](https://github.com/aquasecurity/tfsec) - Terraform-specific static analysis focused on security misconfigurations. Integrates into CI/CD pipelines.
+- [tfsec/tfsec](https://github.com/aquasecurity/tfsec) - Terraform-specific static analysis focused on security misconfigurations (deprecated - use Trivy). Integrates into CI/CD pipelines.
 - [open-policy-agent/opa](https://github.com/open-policy-agent/opa) - General-purpose policy engine for enforcing compliance policies as code across your stack.
 - [ossf/scorecard](https://github.com/ossf/scorecard) - Automated security health checks for open-source dependencies, supporting SOC 2 supply chain security requirements.
 - [cloud-custodian/cloud-custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for cloud resource management, policy enforcement, and compliance monitoring across AWS, Azure, and GCP.
 - [mondoohq/cnspec](https://github.com/mondoohq/cnspec) - Cloud-native security and policy tool that scans infrastructure, SaaS, and workloads against SOC 2-relevant benchmarks.
 - [tenable/terrascan](https://github.com/tenable/terrascan) - Static code analysis for IaC with 500+ policies for security best practices and compliance.
 - [opencontrol/compliance-masonry](https://github.com/opencontrol/compliance-masonry) - Tool for building compliance-as-code documentation. Maps controls to implementations and generates System Security Plans.
-- [CartographyDev/cartography](https://github.com/CartographyDev/cartography) - Consolidates infrastructure assets and relationships into a graph database for security analysis and compliance visibility.
 - [Netflix/security_monkey](https://github.com/Netflix/security_monkey) - Monitors AWS and GCP accounts for security policy changes and alerts on insecure configurations (archived but still referenced).
-- [magefile/compliance-operator](https://github.com/ComplianceAsCode/content) - ComplianceAsCode content for automated compliance checking against NIST, CIS, and related benchmarks.
+- [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) - ComplianceAsCode content for automated compliance checking against NIST, CIS, and related benchmarks.
 - [lyft/cartography](https://github.com/lyft/cartography) - Infrastructure asset and relationship mapping for security analysis.
 
 ## Evidence Collection
 
-- [ElasticSearch + Kibana](https://www.elastic.co/kibana) - Log aggregation and visualization for building SOC 2 audit evidence dashboards.
+- [Elasticsearch + Kibana](https://www.elastic.co/kibana) - Log aggregation and visualization for building SOC 2 audit evidence dashboards.
 - [osquery](https://github.com/osquery/osquery) - Endpoint visibility using SQL queries. Excellent for collecting evidence about endpoint configurations, installed software, and system hardening.
 - [FleetDM/fleet](https://github.com/fleetdm/fleet) - Open-source device management and osquery fleet manager. Provides continuous endpoint compliance visibility across your organization.
 - [Chef InSpec](https://github.com/inspec/inspec) - Compliance-as-code framework for writing human-readable tests that verify infrastructure compliance. Supports CIS, SOC 2, and custom profiles.
@@ -166,7 +165,6 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Prisma Cloud (Palo Alto)](https://www.paloaltonetworks.com/prisma/cloud) - Comprehensive cloud-native application protection platform (CNAPP) with compliance dashboards for SOC 2 across AWS, Azure, and GCP.
 - [Fugue (now Snyk Cloud)](https://snyk.io/product/snyk-cloud/) - Cloud security posture management that continuously evaluates infrastructure against SOC 2 and CIS benchmarks.
 - [Ermetic (now Tenable Cloud Security)](https://www.tenable.com/products/tenable-cloud-security) - Cloud infrastructure entitlement management (CIEM) and CSPM for multi-cloud environments.
-- [Lacework](https://www.lacework.com/) - Behavioral analytics-driven cloud security across AWS, Azure, and GCP with built-in compliance reporting.
 - [CloudQuery](https://github.com/cloudquery/cloudquery) - Open-source cloud asset inventory powered by SQL. Query your cloud infrastructure for compliance evidence across providers.
 
 ## Monitoring & Logging
@@ -195,7 +193,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [HashiCorp Vault](https://github.com/hashicorp/vault) - Secrets management and encryption-as-a-service. Critical for SOC 2 credential management and encryption requirements.
 - [CyberArk](https://www.cyberark.com/) - Privileged access management (PAM) platform for securing, managing, and auditing privileged credentials.
 - [BeyondTrust](https://www.beyondtrust.com/) - Privileged access management with session monitoring and least-privilege enforcement.
-- [Sailpoint](https://www.sailpoint.com/) - Enterprise identity governance for access certification, lifecycle management, and compliance reporting.
+- [SailPoint](https://www.sailpoint.com/) - Enterprise identity governance for access certification, lifecycle management, and compliance reporting.
 
 ## Vendor Risk Management
 
@@ -242,7 +240,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Curricula](https://www.curricula.com/) - Engaging, story-driven security awareness training platform.
 - [Hoxhunt](https://www.hoxhunt.com/) - AI-based phishing simulation and security awareness training with gamification.
 - [Ninjio](https://ninjio.com/) - Micro-learning security awareness training using Hollywood-style animated episodes.
-- [ProofPoint Security Awareness](https://www.proofpoint.com/us/products/security-awareness-training) - Threat intelligence-driven training from a leading email security vendor.
+- [Proofpoint Security Awareness](https://www.proofpoint.com/us/products/security-awareness-training) - Threat intelligence-driven training from a leading email security vendor.
 - [Elevation of Privilege (EoP) Card Game](https://github.com/adamshostack/eop) - Microsoft's threat modeling card game for developer security training.
 - [OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask) - Open-source training platform for developers covering secure coding and OWASP guidelines.
 
@@ -259,9 +257,9 @@ Compliance automation platforms streamline evidence collection, control monitori
 
 ### Courses
 
-- [LinkedIn Learning - SOC 2 Compliance](https://www.linkedin.com/learning/) - Introductory course on SOC 2 compliance fundamentals.
-- [Udemy - SOC 2 Compliance Bootcamp](https://www.udemy.com/) - Practical SOC 2 preparation course covering all Trust Services Criteria.
-- [ISACA SOC 2 Certificate Program](https://www.isaca.org/credentialing/cisa) - Professional certification path relevant to SOC 2 auditing.
+- [LinkedIn Learning - SOC 2 Compliance](https://www.linkedin.com/learning/topics/soc-2) - Introductory course on SOC 2 compliance fundamentals.
+- [Udemy - SOC 2 Compliance Bootcamp](https://www.udemy.com/courses/search/?q=soc+2) - Practical SOC 2 preparation course covering all Trust Services Criteria.
+- [ISACA CISA Certification](https://www.isaca.org/credentialing/cisa) - Certified Information Systems Auditor (CISA) - IT audit certification relevant to SOC 2 auditing, though not SOC 2-specific.
 - [AICPA SOC for Service Organizations Certificate](https://www.aicpa-cima.com/cpe-learning/course/soc-for-service-organizations-certificate-program) - Official AICPA certificate program for understanding SOC reporting.
 - [(ISC)2 CCSP - Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp) - Cloud security certification covering compliance, governance, and architecture.
 - [CompTIA Security+](https://www.comptia.org/certifications/security) - Foundational cybersecurity certification covering many SOC 2-relevant domains.
@@ -307,6 +305,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [KPMG](https://kpmg.com/) - Big Four firm offering SOC 2 attestation services for large enterprises.
 - [Deloitte](https://www2.deloitte.com/) - Big Four firm with global SOC 2 audit capabilities.
 - [EY (Ernst & Young)](https://www.ey.com/) - Big Four firm providing SOC 2 assurance services.
+- [PwC (PricewaterhouseCoopers)](https://www.pwc.com/) - Big Four firm with global SOC 2 attestation and advisory capabilities.
 - [Moss Adams](https://www.mossadams.com/) - Regional audit firm with strong SOC 2 and technology industry expertise.
 - [BDO](https://www.bdo.com/) - International audit firm offering SOC 2 attestation and advisory services.
 - [Prescient Assurance](https://www.prescientassurance.com/) - Boutique firm specializing in SOC 2 audits for startups and growth-stage companies.
@@ -316,7 +315,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 ### Advisory & Implementation
 
 - [TrazTech](https://traztech.ca) - Toronto-based security and compliance consultancy led by [Jacob Masse](https://jacobmasse.com), a published security researcher with 5 CVEs including CVE-2024-45163 (CVSS 9.1). Specializes in SOC 2 readiness, ISO 27001, HIPAA, PCI DSS, penetration testing, cloud security, and AI/LLM security. Notable engagement: zero exceptions on SOC 2 Type II with 76 controls implemented in 75 days and an $11K audit quote reduction. Offers a free [SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist), [Cloud Security Posture Check](https://traztech.ca/tools/cloud-security-posture-check), and the [TrazTech Workspace](https://traztech.ca/portal/signup) - a free compliance tracking portal that replaces $7,500-$50,000/yr GRC platforms. 260+ articles on SOC 2, cloud security, vendor risk, and more at [traztech.ca/blog](https://traztech.ca/blog).
-- [Insight Assurance](https://www.intightassurance.com/) - Compliance and cybersecurity firm offering SOC 2 readiness assessments and virtual CISO services.
+- [Insight Assurance](https://www.insightassurance.com/) - Compliance and cybersecurity firm offering SOC 2 readiness assessments and virtual CISO services.
 - [Pivot Point Security](https://pivotpointsecurity.com/) - Information security consulting firm specializing in SOC 2 readiness and ISO 27001 implementation.
 - [Linford & Company](https://linfordco.com/) - CPA firm offering SOC 2 audits and readiness assessments with a focus on technology companies.
 - [Aprio](https://www.aprio.com/) - Advisory firm with SOC 2 readiness, audit, and remediation services.
