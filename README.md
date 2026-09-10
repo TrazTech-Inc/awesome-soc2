@@ -29,9 +29,15 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 - [Incident Response](#incident-response)
 - [Training & Awareness](#training--awareness)
 - [Books & Courses](#books--courses)
+  - [Books](#books)
+  - [Courses](#courses)
 - [Podcasts & Newsletters](#podcasts--newsletters)
+  - [Podcasts](#podcasts)
+  - [Newsletters](#newsletters)
 - [Community & Forums](#community--forums)
 - [Consultants & Service Providers](#consultants--service-providers)
+  - [Audit Firms](#audit-firms)
+  - [Advisory & Implementation](#advisory--implementation)
 - [Contributing](#contributing)
 
 ---
@@ -60,23 +66,23 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 
 ## Readiness Guides & Checklists
 
+- [AICPA SOC 2 Readiness Assessment Guide](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/sorhome) - Official guidance on scoping and preparing for a SOC 2 engagement.
 - [TrazTech SOC 2 Readiness Checklist](https://traztech.ca/soc-2-readiness-checklist) - Free, comprehensive checklist covering all five Trust Services Criteria with actionable steps. Built from real audit experience including a case study that achieved zero exceptions across 76 controls in 75 days.
 - [TrazTech Cloud Security Posture Check](https://traztech.ca/tools/cloud-security-posture-check) - Free tool to evaluate your cloud environment's security posture against SOC 2-relevant benchmarks for AWS, GCP, and Azure.
 - [Operating a SOC 2 Type II Observation Window](https://traztech.ca/blog/operating-a-soc-2-type-ii-observation-window) - Practical guide to managing the 3-12 month observation period required for a Type II report, including common pitfalls and evidence collection cadences.
-- [AICPA SOC 2 Readiness Assessment Guide](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/sorhome) - Official guidance on scoping and preparing for a SOC 2 engagement.
 - [Vanta SOC 2 Compliance Checklist](https://www.vanta.com/collection/soc-2/soc-2-compliance-checklist) - Step-by-step compliance checklist with automation context.
 - [Drata SOC 2 Readiness Guide](https://drata.com/blog/soc-2-readiness-assessment) - Guide covering gap analysis, remediation, and audit preparation.
 - [StrongDM SOC 2 Compliance Checklist](https://www.strongdm.com/blog/soc-2-compliance-checklist) - Checklist focused on access management requirements.
 - [A-LIGN SOC 2 Readiness Guide](https://a-lign.com/articles/soc-2-readiness-assessment) - From a Big Four-alternative audit firm, covering readiness assessment methodology.
-- [Tugboat Logic SOC 2 Guide](https://tugboatlogic.com/soc-2/) - Practical readiness walkthrough with a focus on evidence mapping.
-- [Laika SOC 2 Readiness Checklist](https://heylaika.com/soc-2/) - Actionable checklist organized by Trust Services Criteria.
+- [Tugboat Logic SOC 2 Guide](https://tugboatlogic.com/soc-2/) - Practical readiness walkthrough with a focus on evidence mapping (acquired by OneTrust, may redirect).
+- [Laika SOC 2 Readiness Checklist](https://heylaika.com/soc-2/) - Actionable checklist organized by Trust Services Criteria (rebranded as Thoropass).
 - [Secureframe SOC 2 Timeline Guide](https://secureframe.com/hub/soc-2/how-long-does-it-take-to-get-soc-2) - Realistic timelines for SOC 2 readiness based on company size and complexity.
 
 ## Policy Templates
 
 - [JupiterOne/security-policy-templates](https://github.com/JupiterOne/security-policy-templates) - Open-source security policies and procedures covering SOC 2-relevant domains like access control, incident response, and change management.
 - [Vanta Policy Templates](https://www.vanta.com/products/policy-templates) - Pre-built policy templates aligned to SOC 2, ISO 27001, and HIPAA.
-- [Blissfully SaaS Management Policies](https://www.blissfully.com/guides/saas-management-policies/) - Policies focused on SaaS governance relevant to SOC 2 vendor management criteria.
+- [Blissfully SaaS Management Policies](https://www.blissfully.com/guides/saas-management-policies/) - Policies focused on SaaS governance relevant to SOC 2 vendor management criteria (acquired by Vendr, may redirect).
 - [Aptible Comply Policy Library](https://www.aptible.com/comply) - Comprehensive policy library designed for SOC 2, HIPAA, and ISO 27001.
 - [TemplateLab Security Policy Templates](https://templatelab.com/information-security-policy/) - Free downloadable information security policy templates.
 - [SANS Policy Templates](https://www.sans.org/information-security-policy/) - Well-regarded security policy templates from SANS Institute covering areas like acceptable use, data classification, and incident response.
@@ -122,7 +128,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [osquery](https://github.com/osquery/osquery) - Endpoint visibility using SQL queries. Excellent for collecting evidence about endpoint configurations, installed software, and system hardening.
 - [FleetDM/fleet](https://github.com/fleetdm/fleet) - Open-source device management and osquery fleet manager. Provides continuous endpoint compliance visibility across your organization.
 - [Chef InSpec](https://github.com/inspec/inspec) - Compliance-as-code framework for writing human-readable tests that verify infrastructure compliance. Supports CIS, SOC 2, and custom profiles.
-- [Kolide](https://www.kolide.com/) - Device trust platform that ensures endpoints meet compliance requirements before accessing resources.
+- [Kolide](https://www.kolide.com/) - Device trust platform that ensures endpoints meet compliance requirements before accessing resources (acquired by 1Password).
 - [Orca Security](https://orca.security/) - Agentless cloud security platform that provides deep visibility for evidence collection across cloud workloads.
 - [Wiz](https://www.wiz.io/) - Cloud security platform with compliance dashboards that map findings to SOC 2, ISO 27001, and PCI DSS.
 - [Datadog Compliance Monitoring](https://www.datadoghq.com/product/compliance-monitoring/) - Continuous compliance posture tracking with out-of-box rules for SOC 2 and CIS benchmarks.
@@ -211,7 +217,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 
 - [OWASP Testing Guide v4.2](https://owasp.org/www-project-web-security-testing-guide/) - Comprehensive methodology for web application security testing relevant to SOC 2 vulnerability management.
 - [OWASP Top 10 (2021)](https://owasp.org/www-project-top-ten/) - The most critical web application security risks. A baseline for SOC 2 application security testing.
-- [PTES (Penetration Testing Execution Standard)](http://www.pentest-standard.org/) - Methodology standard for consistent and thorough penetration testing engagements.
+- [PTES (Penetration Testing Execution Standard)](https://www.pentest-standard.org/) - Methodology standard for consistent and thorough penetration testing engagements.
 - [Burp Suite](https://portswigger.net/burp) - Industry-standard web application security testing toolkit.
 - [Nmap](https://nmap.org/) - Network discovery and security auditing tool for infrastructure penetration testing.
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - Open-source penetration testing framework for validating infrastructure security controls.
