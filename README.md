@@ -123,6 +123,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Netflix/security_monkey](https://github.com/Netflix/security_monkey) - Monitors AWS and GCP accounts for security policy changes and alerts on insecure configurations (archived but still referenced).
 - [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) - ComplianceAsCode content for automated compliance checking against NIST, CIS, and related benchmarks.
 - [lyft/cartography](https://github.com/lyft/cartography) - Infrastructure asset and relationship mapping for security analysis.
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ## Evidence Collection
 
