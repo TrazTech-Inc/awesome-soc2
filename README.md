@@ -90,6 +90,7 @@ SOC 2 (System and Organization Controls 2) is a framework developed by the AICPA
 - [SANS Policy Templates](https://www.sans.org/information-security-policy/) - Well-regarded security policy templates from SANS Institute covering areas like acceptable use, data classification, and incident response.
 - [Osano Privacy Policy Templates](https://www.osano.com/articles/privacy-policy-template) - Privacy-focused templates relevant to the Privacy Trust Services Criteria.
 - [Run Comply Policy Templates](https://runcomply.com) - GRC platform with policy templates mapped to SOC 2 criteria.
+- [Policyseed](https://github.com/odedmoshe/policyseed) - Apache-2.0 set of 22 SOC 2 policy templates, each mapped to the Trust Services Criteria, with a CLI and a free in-browser generator that fills in your company, stack and policy owners.
 
 ## Automation Platforms
 
