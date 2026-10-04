@@ -251,6 +251,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Proofpoint Security Awareness](https://www.proofpoint.com/us/products/security-awareness-training) - Threat intelligence-driven training from a leading email security vendor.
 - [Elevation of Privilege (EoP) Card Game](https://github.com/adamshostack/eop) - Adam Shostack's threat modeling card game for developer security training.
 - [OWASP Security Knowledge Framework](https://github.com/blabla1337/skf-flask) - Open-source training platform for developers covering secure coding and OWASP guidelines (archived).
+- [Fallax](https://fallax.io) - Phishing simulation and security awareness training that works on any Microsoft 365 or Google Workspace plan and syncs training evidence to Vanta, Drata, Secureframe and Sprinto.
 
 ## Books & Courses
 
