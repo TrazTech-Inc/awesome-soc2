@@ -137,6 +137,8 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [JupiterOne](https://www.jupiterone.com/) - Cyber asset management and governance platform that maps relationships between assets, identities, and compliance controls.
 - [Devo](https://www.devo.com/) - Cloud-native logging and security analytics platform for centralized evidence collection and retention.
 
+- [First Access Review Kit](https://github.com/nadafameer0501/first-access-review-kit) - Free editable access-review workbook, fictional completed example, and evidence checklist for documenting account populations, access decisions, remediation, and sign-off.
+
 ## Cloud Security
 
 ### AWS
