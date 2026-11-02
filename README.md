@@ -214,6 +214,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Risk Recon (Mastercard)](https://www.riskrecon.com/) - Continuous vendor security monitoring with risk-prioritized assessments.
 - [HECVAT (Higher Ed)](https://library.educause.edu/resources/2020/4/higher-education-community-vendor-assessment-toolkit) - Open vendor assessment questionnaire useful as a template for SOC 2 vendor evaluations.
 - [SIG Questionnaire (Shared Assessments)](https://sharedassessments.org/sig/) - Standardized Information Gathering questionnaire widely used for third-party risk assessment.
+- [RMM Vendor Due-Diligence Evidence Register](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-vendor-due-diligence-evidence-register.html) - Free, ungated CSV for documenting evidence, findings, risk, remediation, exceptions, and renewal review when an MSP or IT team assesses an RMM vendor.
 
 ## Penetration Testing
 
