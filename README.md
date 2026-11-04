@@ -107,6 +107,7 @@ Compliance automation platforms streamline evidence collection, control monitori
 - [Anecdotes](https://www.anecdotes.ai/) - AI-driven compliance platform that automates evidence collection across business processes. Good for complex enterprises with multiple compliance requirements.
 - [Hyperproof](https://hyperproof.io/) - Operations-focused compliance platform with strong workflow automation, task management, and audit trail capabilities. Good for compliance teams managing multiple frameworks.
 - [Strike Graph](https://www.strikegraph.com/) - Flexible and cost-effective compliance platform with a risk-based approach. Supports SOC 2, ISO 27001, HIPAA, PCI DSS, and GDPR.
+- [Attestlane](https://attestlane.to) - SOC 2 readiness tool for 1-50 person B2B software teams that pairs a free assessment with AI-drafted policies for the team to review, a 39-item evidence checklist, and an auditor-ready package.
 
 ## Open-Source Tools
 
