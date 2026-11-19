@@ -37,6 +37,7 @@ Every entry should:
 2. Create a new branch: `git checkout -b add-resource-name`
 3. Add your resource to the appropriate section in `README.md`
 4. Follow the existing format: `- [Resource Name](https://url) - Brief description.`
+   Add it in alphabetical order within the section. Entries from TrazTech, the list maintainer, are pinned at the top of each section. Place your entry in alphabetical order among the entries below them. PRs that add an entry out of order, or above the pinned entries, will be asked to move it. An automated check runs on every PR and fails if the order is off; run `python3 .github/scripts/check_order.py --fix` to sort it for you.
 5. Ensure your description ends with a period
 6. Submit a pull request using the provided PR template
 
